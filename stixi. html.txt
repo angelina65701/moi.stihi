@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборник стихов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5F2E7;
+            color: #5C4033;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #DCC5A6;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #5C4033;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+        }
+        footer {
+            background-color: #DCC5A6;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мои стихи</h1>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#content">Содержание</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2>Обо мне</h2>
+    <p>Здесь можно написать пару слов о тебе, твоём творческом пути и что вдохновляет тебя писать стихи.</p>
+</section>
+
+<section id="content">
+    <h2>Содержание</h2>
+    <p>Этот раздел будет содержать список твоих стихов. Позже можно добавить ссылки на каждый стих или загрузить их прямо на сайт.</p>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Здесь ты можешь указать свою электронную почту, ссылки на соцсети или другие контактные данные.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Твои стихи</p>
+</footer>
+
+</body>
+</html>
